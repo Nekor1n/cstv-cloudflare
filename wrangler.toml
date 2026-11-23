@@ -22,9 +22,9 @@ SYNC_CACHE_MAX_AGE = "3"
 
 # Dashboard / match list: optional KV writes match metadata (required to list matches)
 # npx wrangler kv namespace create CSTV_MATCH_INDEX
-[[kv_namespaces]]
-binding = "MATCH_INDEX"
-id = "1cf305480e764e789814c3461ff61f85"
+# [[kv_namespaces]]
+# binding = "MATCH_INDEX"
+# id = ""
 # preview_id = "<preview_id>"
 
 [[durable_objects.bindings]]

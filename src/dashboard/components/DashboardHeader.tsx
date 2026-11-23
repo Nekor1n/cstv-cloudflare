@@ -2,10 +2,9 @@ import type { FC } from "hono/jsx";
 
 export const DashboardHeader: FC = () => (
   <header>
-    <h1>CSTV dashboard</h1>
+    <h1>欢迎来到Neko对战平台观赛中心</h1>
     <p class="sub">
-      Ingested match tokens with <code>playcast</code> commands and stream URLs. No
-      client-side script — select text in the fields below and copy manually (Ctrl+C / ⌘C).
+      前往赛事官方宣发页面获取观赛地址！
     </p>
   </header>
 );

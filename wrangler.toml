@@ -33,4 +33,4 @@ class_name = "GotvMatch"
 
 [[migrations]]
 tag = "v1"
-new_classes = ["GotvMatch"]
+new_sqlite_classes = ["GotvMatch"]

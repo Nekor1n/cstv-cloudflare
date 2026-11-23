@@ -23,13 +23,6 @@ export const DashboardMatchSection: FC<Props> = ({
     <>
       {!indexEnabled && (
         <div class="panel warn">
-        //   <h2>Setup</h2>
-        //   <p style="margin:0; color: var(--muted); font-size: 0.9rem;">
-        //     Listing matches requires a Workers KV binding named{" "}
-        //     <code>MATCH_INDEX</code>. Uncomment{" "}
-        //     <code>[[kv_namespaces]]</code> in <code>wrangler.toml</code>, create
-        //     a namespace, then redeploy (see README → Dashboard).
-        //   </p>
         </div>
       )}
 
@@ -37,8 +30,6 @@ export const DashboardMatchSection: FC<Props> = ({
         <h2>Active matches</h2>
         {!hasRows && (
           <div class="empty">
-          //   No matches yet. Rows appear after the game server posts{" "}
-          //   <code>/gotv/&lt;token&gt;/start</code>.
           </div>
         )}
         {hasRows && (
